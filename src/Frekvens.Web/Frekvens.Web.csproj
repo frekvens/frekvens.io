@@ -65,7 +65,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="assets\css\application.css" />
+    <None Include="assets\css\application.css" />
     <Content Include="assets\css\application.min.css" />
     <Content Include="assets\img\bg.jpg" />
     <Content Include="index.htm" />
