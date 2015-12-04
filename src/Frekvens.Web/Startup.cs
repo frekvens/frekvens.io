@@ -9,8 +9,8 @@ namespace Frekvens.Web
     {
         public void Configuration(IAppBuilder app)
         {
-            app.UseLetsEncrypt("3Q57_PTOVKfxFZbl-LnYsji7PxYDqrCOu4WzM-jjZa4", "3Q57_PTOVKfxFZbl-LnYsji7PxYDqrCOu4WzM-jjZa4.52CEr9yUu-5FmKsp7VokFUHBBhsJxay5egIhVaYCrv4");
-            app.UseLetsEncrypt("wICNXvIFrD5cAqHjaUQuqGnxkOl9OB4p73NeuwVg3Ek", "wICNXvIFrD5cAqHjaUQuqGnxkOl9OB4p73NeuwVg3Ek.52CEr9yUu-5FmKsp7VokFUHBBhsJxay5egIhVaYCrv4");
+            app.UseLetsEncrypt("4fMwlcYNvVsTQ5b5bxL2DUx4SWM4b21QmYxvfO6c7EM", "4fMwlcYNvVsTQ5b5bxL2DUx4SWM4b21QmYxvfO6c7EM.52CEr9yUu-5FmKsp7VokFUHBBhsJxay5egIhVaYCrv4");
+            app.UseLetsEncrypt("EL9feWrgVi4BczT9cT707HiJc_s0jp6xwH9XUejLN3Y", "EL9feWrgVi4BczT9cT707HiJc_s0jp6xwH9XUejLN3Y.52CEr9yUu-5FmKsp7VokFUHBBhsJxay5egIhVaYCrv4");
         }
     }
 
