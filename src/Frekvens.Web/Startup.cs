@@ -15,21 +15,6 @@ namespace Frekvens.Web
         }
     }
 
-    public class LetsEncryptOptions
-    {
-        public LetsEncryptOptions(string accountEmail, string accountPublicKey)
-        {
-            AccountEmail = accountEmail;
-            AccountPublicKey = accountPublicKey;
-        }
-
-        public string AccountEmail { get; protected set; }
-        public string AccountPublicKey { get; protected set; }
-        public string AccountPrivateKey { get; set; }
-        //public string CertificateSigningRequest { get; set; }
-        //public List<string> Domains { get; set; }
-    }
-
     public static class LetsEncryptExtensions
     {
         public static void UseLetsEncrypt(this IAppBuilder app, string path, string response)
