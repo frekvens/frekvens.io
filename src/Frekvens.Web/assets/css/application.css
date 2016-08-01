@@ -109,3 +109,18 @@ a {
     .footer .small {
         font-size: 14px;
     }
+
+@media(max-width:768px) {
+    .body {
+        height: 100vh;
+        padding: 0;
+    }
+
+    .main {
+        height: 100vh;
+    }
+
+    .main .center {
+        padding-bottom: 60%;
+    }
+}
