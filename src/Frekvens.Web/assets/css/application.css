@@ -36,7 +36,7 @@ a {
     height: 100%;
     width: 100%;
     color: #fff;
-    background: url('/assets/img/bg.jpg') no-repeat #000;
+    background: url('/assets/img/background.jpg') no-repeat #000;
     background-size: cover;
     background-attachment: scroll;
     text-align: center;
