@@ -70,6 +70,7 @@
     <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\img\bg.jpg" />
     <Content Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -81,7 +82,6 @@
   <ItemGroup>
     <None Include="assets\css\application.css" />
     <Content Include="assets\css\application.min.css" />
-    <Content Include="assets\img\bg.jpg" />
     <Content Include="index.htm" />
     <Content Include="Web.config" />
   </ItemGroup>
